@@ -11,5 +11,50 @@ body {
     background-color: black; }
    
 h1 {
-    background-color: #00ff00;
+    background-color: black;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    color: #f2e292;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 18px;
+    background-color: black;
+    padding-bottom: 5px;
+    padding-bottom: 20px;
+    color: #dae8ee;
+}
+
+h3 {
+    font-weight: lighter;
+    font-size: 18px;
+    background-color: black;
+    padding-bottom: 5px;
+    padding-bottom: 20px;
+    color: #dae8ee;
+}
+
+@media only print {
+
+body {
+    background-color: white; }
+
+h1 {
+    background-color: white; }
+
+h2 {
+    background-color: white;
+    color: black; }
+
+h3 {
+    background-color: white;
+    color: black; }
+}
+
+
+
+
+
+
 }
