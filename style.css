@@ -62,21 +62,22 @@ h3 {
 
 .floating-box {
   box-sizing: border-box;
-  display: inline-block;
+  display: inline;
   float: left;
   position: relative;
+  top: 8%;
   width: 60%;
   height: 175px;
   margin-left: 20%;
   padding: 10px;
-
-
-  border: 3px solid #73AD21;  
+  border: 1px solid #ffffff;  
 }
 
 
 p {
   color: white;
+  text-align: center;
+
 
 }
 
@@ -91,20 +92,29 @@ p {
         float: left;     /* This makes it float to the left of the main content */
         margin-left: 0;
     }
-
-
 }
 
 
 @media screen and (max-width: 480px) {
    
     .floating-box {
+    top: 5%;
     width: 90%;
-    margin-left: 5%; 
+    margin-left: 5%;
   }
 
-@media only print {
+    h1 {
+      font-size: 22px;
+}
 
+    h2 {
+      font-size: 13px;
+}
+
+  }
+
+
+@media only print {
 
 #header {
   margin-top: 0px; }
