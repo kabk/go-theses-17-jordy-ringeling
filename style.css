@@ -9,7 +9,9 @@ html, body { height: 100% }
 
 body {
     background-color: black; }
-   
+  
+/*TYPOGRAPHY*/
+
 h1 {
     background-color: black;
     padding-top: 15px;
@@ -19,7 +21,7 @@ h1 {
 
 h2 {
     font-weight: normal;
-    font-size: 18px;
+    font-size: 15px;
     background-color: black;
     padding-bottom: 5px;
     padding-bottom: 20px;
@@ -35,16 +37,77 @@ h3 {
     color: #dae8ee;
 }
 
+/*CONTENT*/
+
+#title {
+  background-position: center;
+  background-repeat: no-repeat;
+  position: center;  
+  top: 15%;  
+}
+
+#header {
+  background-image: url("img/logo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  position: center;
+  margin-top: 15px;
+  height: 90px;
+  width: 90px;
+}
+#header:hover {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+.floating-box {
+  box-sizing: border-box;
+  display: inline-block;
+  float: left;
+  position: relative;
+  width: 60%;
+  height: 175px;
+  margin-left: 20%;
+  padding: 10px;
+
+
+  border: 3px solid #73AD21;  
+}
+
+
+p {
+  color: white;
+
+}
+
+
+
+
+/*@media*/
+
 @media screen and (min-width: 480px) {
     nav {
         width: 200px;
         float: left;     /* This makes it float to the left of the main content */
         margin-left: 0;
     }
+
+
 }
+
+
+@media screen and (max-width: 480px) {
+   
+    .floating-box {
+    width: 90%;
+    margin-left: 5%; 
+  }
 
 @media only print {
 
+
+#header {
+  margin-top: 0px; }
 body {
     background-color: white; }
 h1 {
