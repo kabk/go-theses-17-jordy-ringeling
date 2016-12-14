@@ -1,0 +1,221 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+html, body { height: 100% }
+
+body {
+    background-color: black; }
+
+::selection {
+  background: #ffdf57; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #ffdf57; /* Gecko Browsers */
+}
+  
+/*TYPOGRAPHY*/
+
+@font-face { 
+    font-family: 'Suisse Works'; 
+    src: url('suisseworks-regular-webs.ttf'); 
+    font-style: normal; 
+    font-weight: 100;
+  }  
+
+@font-face { 
+    font-family: 'Suisse Works'; 
+    src: url('suisseworks-medium-webs.ttf'); 
+    font-style: bold; 
+
+  } 
+ 
+@font-face { 
+    font-family: 'Suisse Works';
+    src: url('suisseworks-regularitalic-webs.ttf');
+    font-style: italic; 
+} 
+
+
+h1 {
+    font-family: 'Suisse Works'; 
+    font-style: normal;
+    font-weight: 100;
+    letter-spacing: 0.005em;
+    font-size: 27px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    color: #ffdf57;
+
+}
+
+h2 {
+    font-family: 'Suisse Works'; 
+    font-style: normal;
+    font-weight: 100;
+    font-size: 29px;
+    /*letter-spacing: 0.01em;*/
+    padding-top: 15px;
+    color: #002193;
+    padding-left: 13%;
+    padding-right: 13%;
+}
+
+h3 {
+    font-family: 'Suisse Works';     
+    font-style: italic;
+    font-weight: 100;
+    font-size: 15px;
+    padding-bottom: 5px;
+    padding-bottom: 20px;
+    color: #dae8ee;
+}
+
+h4 {
+    font-family: 'Suisse Works';     
+    font-style: italic;
+    font-weight: 100;
+    letter-spacing: 0.01em;
+    font-size: 20px;
+    color: black;
+    padding-left: 13%;
+    padding-right: 13%;
+}
+
+p {
+  font-family: 'Suisse Works'; 
+  font-weight: 100;
+  font-size: 17px;
+  color: black;  
+  text-align: left;
+  line-height: 1.7em;
+  padding-left: 13%;
+  padding-right: 13%;
+}
+
+#p2 {
+  text-indent: 25px;
+}
+
+/*CONTENT*/
+
+#title {
+  background-position: center;
+  background-repeat: no-repeat;
+  position: center;  
+  top: 15%;  
+}
+
+#header {
+  background-image: url("img/logo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  position: center;
+  margin-top: 15px;
+  height: 90px;
+  width: 90px;
+}
+#header:hover {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+.floating-box {
+/*  box-sizing: border-box;  */
+  background-color: white;
+  display: inline;
+  float: left;
+  position: relative;
+  top: 8%;
+  width: 60%;
+  margin-left: 20%;
+  padding: 1em;
+  border: 1px solid #ffffff;  
+}
+
+/*#img {
+  background-image: url("img/bierstadt.jpg");
+  position: fixed;
+  width: 480px;
+  height: 310px;
+
+}*/
+
+#img {
+  position: relative;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-image: url("img/bierstadt.jpg");
+  top: -17px;
+  left: -17%;
+  width: 480px;
+  height: 305px;
+  margin: 20px;
+
+}
+
+article {
+  -webkit-column-count: 1;
+  -moz-column-count: 1;
+  column-count: 1;
+}
+
+
+
+
+
+/*@media*/
+
+@media screen and (min-width: 480px) {
+    nav {
+        width: 200px;
+        float: left;     /* This makes it float to the left of the main content */
+        margin-left: 0;
+    }
+
+
+}
+
+
+@media screen and (max-width: 480px) {
+   
+    .floating-box {
+    top: 5%;
+    width: 90%;
+    margin-left: 5%;
+  }
+
+    h1 {
+      font-size: 22px;
+}
+
+    h2 {
+      font-size: 13px;
+}
+p {
+  padding-left: 5%;
+  padding-right: 5%;
+  /*text-indent: 50px;*/
+}
+
+  }
+
+
+@media only print {
+
+#header {
+  margin-top: 0px; }
+body {
+    background-color: white; }
+h1 {
+    background-color: white; }
+h2 {
+    background-color: white;
+    color: black; }
+h3 {
+    background-color: white;
+    color: black; }
+}
