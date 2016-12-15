@@ -104,6 +104,21 @@ p {
   text-indent: 30px;
 }
 
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: #ffdf57;
+    text-decoration: underline;
+}
+
+
 /*CONTENT*/
 
 
@@ -115,8 +130,15 @@ p {
 }
 
 
-
-
+#menu {
+  font-family: 'Suisse Works'; 
+  font-weight: 100;
+  font-size: 14px;
+  color: white;
+  position: fixed;
+  left: 25px; 
+  top: 2.5%;
+}
 
 
 
@@ -147,7 +169,11 @@ p {
   width: 90px;
   margin-top: 20px;
   color: blue;
+}
 
+#icon:hover {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
 }
 
 .stick {
