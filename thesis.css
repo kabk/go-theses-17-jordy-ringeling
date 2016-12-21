@@ -209,6 +209,25 @@ a:hover {
 }
 
 
+/*IMAGES*/
+
+img {
+    max-width: 320px;
+}
+
+.images {
+    overflow: hidden;
+    font-size: 0.7em;
+    width: 26%;
+    float: left;
+    margin-top: 50px;
+    margin-left: 2%;
+    margin-right: -100%;
+    z-index: -2;
+}
+
+
+/*MENU ON SIDE*/
 #menu {
   font-family: 'Suisse Works'; 
   font-weight: 100;
@@ -216,7 +235,7 @@ a:hover {
   color: white;
   position: fixed;
   left: 30px; 
-  top: 30%;
+  bottom: 2.5%;
 }
 
 
