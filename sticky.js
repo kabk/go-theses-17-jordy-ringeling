@@ -2,7 +2,7 @@ $(document).ready(function() {
 
     // Cache selectors for faster performance.
     var $window = $(window),
-        $icon = $('#icon'),
+        $icon = $('#icon'), 
         $mainMenuBarAnchor = $('#mainMenuBarAnchor');
 
     // Run this on scroll events.
