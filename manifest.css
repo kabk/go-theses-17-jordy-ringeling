@@ -11,8 +11,8 @@ html, body { height: 100% }
 
 body {
   background-color: #cccccc; 
-  background-image: url("img/background6.jpg");
-  background-repeat: repeat-y;
+/*  background-image: url("img/background6.jpg");
+*/  background-repeat: repeat-y;
   background-size: 100%;
 }
 
@@ -134,7 +134,7 @@ a:hover {
   color:  #9c0094;
   position: relative;
   display: inline-block;
-  background-color: #f9d500;
+  background-color:  #f9d500;
 }
 
 #title1:hover {
@@ -180,6 +180,27 @@ a:hover {
   color: #03ff00;
   background-color: #ff17cf;
   cursor: pointer;
+}
+
+#ref4 {
+  height: 70px;
+  width: 150px;
+  position: absolute;
+  margin-left: 2.6%;
+  margin-top: 2.6%;
+  padding: 19px;
+  padding-top: 18px;
+  font-weight: bold;
+  word-wrap: break-word;
+  letter-spacing: 0.005em;
+  line-height: 0.5em;
+  font-size: 1.2em;
+  color: #c200ff;
+/*  background-color: #c200ff;
+*/  border-style: ridge;
+  border-color: black;
+  border-width: 5px;
+
 }
 
 #title5 { /*MANIFEST*/

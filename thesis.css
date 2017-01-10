@@ -10,9 +10,10 @@ html, body { height: 100% }
 
 body {
   background-color: #dddddd; 
-  background-image: url("img/background1.jpg");
+  background-image: url("img/grey.jpg");
   background-repeat: repeat-y;
   background-size: 100%;
+
 }
 
 /*SCROLLBAR & SELECTION*/
@@ -24,8 +25,8 @@ body {
   background: #ffdf57; /* Gecko Browsers */
 }
 
-::-webkit-scrollbar {
-    width: 11px;
+p54cd::-webkit-scrollbar {
+    width: 10px;
 }
  
 ::-webkit-scrollbar-track {
@@ -38,25 +39,6 @@ body {
   
 /*TYPOGRAPHY*/
 
-/*@font-face { 
-font-family: 'Suisse Works'; 
-  src: url('suisseworks-regular-webs.ttf'); 
-  font-style: normal; 
-  font-weight: 100;
-  }  
-
-@font-face { 
-  font-family: 'Suisse Works'; 
-  src: url('suisseworks-medium-webs.ttf'); 
-  font-style: bold; 
-
-  } 
- 
-@font-face { 
-  font-family: 'Suisse Works';
-  src: url('suisseworks-regularitalic-webs.ttf');
-  font-style: italic; 
-} */
 
 
 h1 {
@@ -76,13 +58,10 @@ h2 {
   margin-right: 7px;
   text-align: justify;
   text-align-last: justify;
-
 }
-
 
 h4 {
   /*SUBTITLE*/
-  font-family: 'Suisse Works';     
   font-style: italic;
   font-weight: 100;
   letter-spacing: 0.01em;
@@ -94,7 +73,6 @@ h4 {
 
 p {
   /*BODY TEXT*/
-  font-family: 'Suisse Works'; 
   font-weight: 100;
   font-size: 21px;
   color: white;  
@@ -110,44 +88,50 @@ p span {
     padding: 3px;
 }
 
-#chapter1 p span { 
+#caption {
+    padding: 3px;
+    margin-top:-18px;
+/*    margin-left: 15px;
+*/    margin-bottom: 20px;
+    text-align: left;
+    color: red;
     background-color: white;
-    color: #000fc9;
+    line-height: 1.3em;
+    font-size: 1.5em;
+    width: 254px;
 }
 
-#chapter2 p span { 
-   background-color: white;
-   color: black;
+/*IMAGES*/
+
+img {
+    max-width: 260px;
+    max-height: 100%;
+    margin-bottom: 15px;   
+
 }
 
-#chapter3 p span { 
-  background-color: white;
-  color: red;
+.images {
+    overflow: hidden;
+    font-size: 0.7em;
+    width: 26%;
+    float: left;
+    margin-top: 20px;
+    margin-left: 2%;
+    margin-right: -100%;
 }
-
-#chapter4 p span {  
-    background-color: white;
-    color: #000fc9;
-}
-
-#chapter5 p span { 
-    background-color: white;
-    color: black;
-}
-
 
 a:link {
-  color: black;
-  text-decoration: none;
+
 }
 
 a:visited {
-  color: black;
+
 }
 
 a:hover {
-  color: white;
   text-decoration: underline;
+  color: #03ff00;
+  background-color: #ff17cf;
 }
 
 .vertical-text {
@@ -158,41 +142,133 @@ a:hover {
 
 /*CONTENT*/
 
+#chapter0 p span {  /*ABSTRACT*/
+    background-color: white;
+    color: black;
+    font-size: 1.0em;
+}
 
-#title1 { /*INTRODUCTION*/
-  color: #f9d500;
-  background-color: red;
+#title0 { 
+  color: black;
+  background-color: white;
   padding: 10px;
   margin-left: 2%;
+  line-height: 4.7em;
+}
+
+#art-0 {
+  background-color: #dddddd; 
+  background-image: url("img/background0.jpg");
+  background-repeat: repeat-y;
+  background-size: 100%;
+}
+
+
+
+#chapter1 p span { 
+    background-color: white;
+    color: black;
+}
+
+#title1 { /*INTRODUCTION*/
+  color: black;
+  background-color: white;
+  padding: 10px;
+  margin-left: 2%;
+
+}
+
+#art-1 {
+  background-color: #dddddd; 
+  background-image: url("img/background1.jpg");
+  background-repeat: repeat-y;
+  background-size: 100%;
+}
+
+
+
+#chapter2 p span { 
+    background-color: white;
+    color: black;
 }
 
 #title2 { /*CHAPTER ONE*/
   color: black;
-  background-color: #f9d500;
+  background-color: white;
   padding: 10px;
   margin-left: 2%;
+}
+
+#art-2 {
+  background-color: #dddddd; 
+  background-image: url("img/background2.jpg");
+  background-repeat: repeat-y;
+  background-size: 100%;
+}
+
+
+
+#chapter3 p span { 
+    background-color: white;
+    color: black;
 }
 
 #title3 { /*THE 2ND ACT*/
-  color: white;
-  background-color: #000fc9;
+  color: black;
+  background-color: white;
   padding: 10px;
   margin-left: 2%;
+}
+
+#art-3 {
+  background-image: url("img/background3.jpg");
+  background-repeat: repeat-y;
+  background-size: 100%;
+}
+
+
+
+#chapter4 p span {  
+    background-color: white;
+    color: black;
 }
 
 #title4 { /*PHASE III*/
-  color: white;
-  background-color: #06ff00;
+  color: black;
+  background-color: white;
   padding: 10px;
   margin-left: 2%;
 }
 
+#art-4 {
+  background-image: url("img/background4.jpg");
+  background-repeat: repeat-y;
+  background-size: 100%;
+}
+
+
+
+#chapter5 p span { 
+    background-color: white;
+    color: black;
+}
+
 #title5 { /*FINALE*/
-  color: #f9d500;
-  background-color: #c200ff;
+  color: black;
+  background-color: white;
   padding: 10px;
   margin-left: 2%;
+  line-height: 4.7em;
 }
+
+
+#art-5 {
+  background-image: url("img/background5.jpg");
+  background-repeat: repeat-y;
+  background-size: 100%;
+}
+
+
 
 
 #shift {
@@ -224,29 +300,9 @@ a:hover {
 }
 
 
-/*IMAGES*/
-
-img {
-    max-width: 250px;
-    max-height: 100%;
-    padding-bottom: 7px;
-}
-
-.images {
-    overflow: hidden;
-    font-size: 0.7em;
-    width: 26%;
-    float: left;
-    margin-top: 35px;
-    margin-left: 2%;
-    margin-right: -100%;
-    z-index: -2;
-}
-
 
 /*MENU ON SIDE*/
 #menu {
-  font-family: 'Suisse Works'; 
   font-weight: 100;
   font-size: 14px;
   color: white;
@@ -258,7 +314,7 @@ img {
 
 /* REFERENCE NUMBERS IN TEXT*/
 .refnote {
-    color: #fcc200;
+    color: red;
     font-size: 85%;
     line-height: 0;
     position: relative;
@@ -267,16 +323,18 @@ img {
 }
 
 .refnote:hover {
-    color: black;
+    color: #f9d500
+
 }
 
 /*REFERENCES DIV*/
 .textnotes {
-    font-size: 0.7em;
-    width: 14.5%;
+    width: 15%;
     float: right;
     margin-right: 6.4%;
     z-index: -2;
+    margin-top: 38px;
+
 }
 
 /*REFERENCE TEXT IN DIV(URL ECT.)*/
@@ -284,18 +342,17 @@ img {
     color: #0018ff;
     background-color: white;
     padding: 5px;
-    font-size: 1.2em;
+    font-size: 0.9em;
     line-height: 1.4em;
-    margin-bottom: 1em;
+    margin-bottom: 0.8em;
+    padding-bottom: 0.5em;
     margin-top: 1.3em;
     margin-left: 1em;
     margin-right: 0.8em;
 }
 
 .textnotes a {
-    text-decoration: none;
-    color: #8a95ff;
-
+  color: black;
 }
 
 .textnotes a:hover {
@@ -306,109 +363,30 @@ img {
 .notenumber {
     font-size: 1.1em;
     text-decoration: none;
-    color: black;
     background: none;
 }
 
 .notenumber a:hover {
-    color: #fcc200;
+   color: #03ff00;
+   background-color: #ff17cf;
 }
 
-
-/*#mainMenuBarAnchor {
-  padding-top: 20px;
-
-}*/
-
-/*#icon {
-  position: absolute;
-  background-image: url("img/logo.png");
-  background-repeat: no-repeat;
-  right: 88%;
-  height: 90px;
-  width: 90px;
-}
-
-#icon:hover {
-  -webkit-filter: invert(100%);
-  filter: invert(100%);
-}
-
-.stick {
-  position: fixed !important;
-  top: 0;
-  margin-top: 20px;
-}
-*/
 
 .floating-box {
   display: inline;
   float: left;
   position: relative;
   width: 45%;
-  margin-left: 32%;
-/*  border-top: solid  1px;
-  border-left: solid 1px;
-  border-right: solid 1px;
-  border-bottom: solid 1px;*/
+  margin-left: 30.5%;
 }
 
 article {
-    page-break-before: always;
-
+  page-break-before: always;
   -webkit-column-count: 1;
   -moz-column-count: 1;
   column-count: 1;
 }
 
-#art-1 {
-  background-color: #dddddd; 
-  background-image: url("img/background1.jpg");
-  background-repeat: repeat-y;
-  background-size: 100%;
-}
-
-#art-2 {
-  background-color: #dddddd; 
-  background-image: url("img/background2.jpg");
-  background-repeat: repeat-y;
-  background-size: 100%;
-}
-
-#art-3 {
-  background-image: url("img/background3.jpg");
-  background-repeat: repeat;
-}
-
-#art-4 {
-  background-image: url("img/background4.jpg");
-  background-repeat: repeat;
-}
-
-#art-5 {
-  background-image: url("img/background5.jpg");
-  background-repeat: repeat;
-}
-
-/*IMAGES*/
-
-#img-left {
-  position: relative;
-  background-size: auto;
-  background-repeat: no-repeat;
-  top: -17px;
-  left: -25%;
-  margin: 20px;
-}
-
-#img-right {
-  position: relative;
-  background-size: auto;
-  background-repeat: no-repeat;
-  right: -25%;
-  float
-  margin: 20px;
-}
 
 /*@media*/
 
@@ -440,7 +418,7 @@ h2 {
   padding-right: 5%;
 }
 p {
-  font-size: 15px;
+  font-size: 16px;
   padding-left: 5%;
   padding-right: 5%;
 }
@@ -466,8 +444,10 @@ p {
 }
 
 img {
-    max-width: 100;
-    max-height: 100;
+    max-width: 200px;
+    max-height: 100%;
+    padding-bottom: 7px;
+
 }
 
 #menu { 
@@ -479,17 +459,42 @@ img {
 
 @media only print {
 
+@page { 
+  margin:20px;
+  margin-bottom: 30px;
+  background-image: url("img/back.jpg");
+  background-repeat: repeat-y;
+}
+
 #header {
   margin-top: 0px; }
 
+a {
+  text-decoration: none;
+}
+
+
+a:hover {
+  text-decoration: none;
+}
+
+
 /*TYPOGRAPHY*/
+
+#title0 { 
+  color: black;
+  background-color: white;
+  padding: 10px;
+  margin-left: 2%;
+  line-height: 4.7em;
+}
 
 body {
   background-color: white; }
 h1 {
   font-size: 75px;
-  line-height: 79px;
-  color: white }
+  line-height: 0.95em;
+  /*color: white*/  }
 h2 {
   color: white; }
 h3 {
@@ -502,33 +507,25 @@ p {
   padding-right: 5%;  
 }
 
+
+
+#chapter2 p span { 
+   background-color: white;
+   color: black;
+}
+
+#shift{
+  display: none;
+}
+
 #menu { 
   display: none;
 }
 
-/*ELEMENTS*/
-/*
-#menu {
-    top: 285px;
-    background-color: white;
-    border: none;
-
-    margin-top: 55px;
-    font-size: 0.7em;
-    line-height: 1.4em;
-    
-    width: 18%;
-    position: absolute;
-    float: left;
-    padding: 10px;
-    padding-top: -10px;
-    z-index: 1;
-}*/
-
 .floating-box {
   border: none;
-  left: 20px;
-  width: 70%;
+  left: 30px;
+  width: 60%;
 }
 
 /*FOOTNOTES*/
@@ -537,14 +534,36 @@ p {
 .textnotes {
     background-color: white;
     border: none;
-    font-size: 0.6em;
+    font-size: 0.8em;
     line-height: 1.2em; 
     width: 19%;
     position: absolute;
     float: left;
-    margin-left: 2%; 
+    margin-left: 1%; 
     padding-top: -10px;
     z-index: 1;
+    margin-top: -17px;
+}
+
+img {
+    max-width: 250px;
+    max-height: 100%;
+    margin-bottom: 10px;
+    border-style: none;
+
+
+}
+
+.images {
+    overflow: hidden;
+    font-size: 0.7em;
+    width: 26%;
+    float: left;
+    margin-top: 22px;
+    margin-left: 10.2%;
+    margin-right: -100%;
+    z-index: -2;
+
 }
 
 }
