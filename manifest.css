@@ -10,7 +10,7 @@
 html, body { height: 100% }
 
 body {
-  background-color: #cccccc; 
+  background-color: #e4e4e4; 
 /*  background-image: url("img/background6.jpg");
 */  background-repeat: repeat-y;
   background-size: 100%;
@@ -53,8 +53,8 @@ h5 {
   /*SUBTITLE*/
   font-weight: normal;
   letter-spacing: 0.1em;
-  line-height: 1em;
-  font-size: 1.1em;
+  line-height: 0.4em;
+  font-size: 110%;
   color: black;
   margin-top: 1%;
 }
@@ -64,7 +64,7 @@ h1 {
   font-weight: normal;
   letter-spacing: 0.005em;
   line-height: 0.94em;
-  font-size: 3.6em;
+  font-size: 350%;
 }
 
 h3 {
@@ -85,15 +85,14 @@ h2 {
   text-align-last: justify;
 }
 
-#thesis {
-  /*FULL THESIS*/
+#continue {
   font-style: italic;
   display: inline-block;
   letter-spacing: 0.005em;
   line-height: 1em;
   font-size: 1.5em;
-  color: red;
   background-color: white;
+
 }
 
 #abstract {
@@ -109,11 +108,12 @@ h2 {
 
 a:link {
   text-decoration: none;
+  color: red;   
 }
 
 a:visited { 
   text-decoration: none;
-  color: blue; 
+  color: red; 
 }
 
 a:hover {
@@ -127,6 +127,15 @@ a:hover {
 }
 
 
+.showme{ 
+    display: none;
+    }
+    .show:hover .showme{
+    display : block;    
+
+    }
+
+
 /*CONTENT*/
 
 
@@ -134,175 +143,387 @@ a:hover {
   color:  #9c0094;
   position: relative;
   display: inline-block;
-  background-color:  #f9d500;
+  background-color:  #ffcc28;
 }
 
 #title1:hover {
   color: #03ff00;
   background-color: #ff17cf;
-  cursor: pointer;
+  cursor: default;
+}
+#ref1 {
+  height: 85px;
+  width: 150px;
+  position: absolute;
+  left: 1.8%;
+  top: 8%;
+  padding: 19px;
+  word-wrap: break-word;
+  background-color: #ffcc28;
+}
+#text1 {
+  color: white;
+  background-color: black;
+  letter-spacing: 0.005em;
+  font-size: 120%;
 }
 
 #title2 {
   color:  #9c0094;
   position: relative;
   display: inline-block;
-  background-color: #f9d500;
+  background-color:  #ffcc28;
 }
 
 #title2:hover {
   color: #03ff00;
   background-color: #ff17cf;
-  cursor: pointer;
+  cursor: default;
+}
+#ref2 {
+  height: 85px;
+  width: 150px;
+  position: absolute;
+  left: 1.8%;
+  top: 8%;
+  padding: 19px;
+  word-wrap: break-word;
+  background-color: #ffcc28;
+}
+#text2 {
+  color: white;
+  background-color: black;
+  letter-spacing: 0.005em;
+  font-size: 120%;
 }
 
 #title3 { /*MANIFEST*/
   color:  #9c0094;
   position: relative;
   display: inline-block;
-  background-color: #f9d500;
+  background-color: #ffcc28;
 }
 
 #title3:hover {
   color: #03ff00;
   background-color: #ff17cf;
-  cursor: pointer;
+  cursor: default;
+}
+
+#ref3 {
+  height: 115px;
+  width: 150px;
+  position: absolute;
+  left: 1.8%;
+  top: 8%;
+  padding: 19px;
+  word-wrap: break-word;
+  background-color: white;
+}
+#text3 {
+  color: white;
+  background-color: blue;
+  letter-spacing: 0.005em;
+  font-size: 120%;
 }
 
 #title4 { /*MANIFEST*/
   color:  #9c0094;
   position: relative;
   display: inline-block;
-  background-color: #f9d500;
+  background-color: #ffcc28;
 }
 
 #title4:hover {
   color: #03ff00;
   background-color: #ff17cf;
-  cursor: pointer;
+  cursor: default;
 }
 
 #ref4 {
-  height: 70px;
+  height: 85px;
   width: 150px;
   position: absolute;
-  margin-left: 2.6%;
-  margin-top: 2.6%;
+  left: 1.8%;
+  top: 8%;
   padding: 19px;
-  padding-top: 18px;
-  font-weight: bold;
   word-wrap: break-word;
+  background-color: #ffcc28;
+}
+#text4 {
+  color: white;
+  background-color: black;
   letter-spacing: 0.005em;
-  line-height: 0.5em;
-  font-size: 1.2em;
-  color: #c200ff;
-/*  background-color: #c200ff;
-*/  border-style: ridge;
-  border-color: black;
-  border-width: 5px;
-
+  font-size: 120%;
 }
 
 #title5 { /*MANIFEST*/
   color:  #9c0094;
   position: relative;
   display: inline-block;
-  background-color: #f9d500;
+  background-color: #ffcc28;
 }
 #title5:hover {
   color: #03ff00;
   background-color: #ff17cf;
-  cursor: pointer;
+  cursor: default;
+}
+#ref5 {
+  height: 85px;
+  width: 150px;
+  position: absolute;
+  left: 1.8%;
+  top: 8%;
+  padding: 19px;
+  word-wrap: break-word;
+  background-color: #ffcc28;
+}
+#text5 {
+  color: white;
+  background-color: black;
+  letter-spacing: 0.005em;
+  font-size: 120%;
 }
 
 #title6 { /*MANIFEST*/
   color:  #9c0094;
   position: relative;
   display: inline-block;
-  background-color: #f9d500;
+  background-color: #ffcc28;
 }
 
 #title6:hover {
   color: #03ff00;
   background-color: #ff17cf;
-  cursor: pointer;
+  cursor: default;
+}
+#ref6 {
+  height: 85px;
+  width: 150px;
+  position: absolute;
+  left: 1.8%;
+  top: 8%;
+  padding: 19px;
+  word-wrap: break-word;
+  background-color: #06ff01;
+}
+#text6 {
+  color: white;
+  background-color: black;
+  letter-spacing: 0.005em;
+  font-size: 120%;
 }
 
 #title7 { /*MANIFEST*/
   color:  #9c0094;
   position: relative;
   display: inline-block;
-  background-color: #f9d500;
+  background-color: #ffcc28;
 }
 
 #title7:hover {
   color: #03ff00;
   background-color: #ff17cf;
-  cursor: pointer;
+  cursor: default;
+}
+#ref7 {
+  height: 115px;
+  width: 150px;
+  position: absolute;
+  left: 1.8%;
+  top: 8%;
+  padding: 19px;
+  word-wrap: break-word;
+  background-color: white;
+}
+#text7 {
+  color: white;
+  background-color: blue;
+  letter-spacing: 0.005em;
+  font-size: 120%;
 }
 
 #title8 { /*MANIFEST*/
   color:  #9c0094;
   position: relative;
   display: inline-block;
-  background-color: #f9d500;
+  background-color: #ffcc28;
 }
 
 #title8:hover {
   color: #03ff00;
   background-color: #ff17cf;
-  cursor: pointer;
+  cursor: default;
+}
+#ref8 {
+  height: 85px;
+  width: 150px;
+  position: absolute;
+  left: 1.8%;
+  top: 8%;
+  padding: 19px;
+  word-wrap: break-word;
+  background-color: #06ff01;
+}
+#text8 {
+  color: white;
+  background-color: black;
+  letter-spacing: 0.005em;
+  font-size: 120%;
 }
 
 #title9 { /*MANIFEST*/
   color:  #9c0094;
   position: relative;
   display: inline-block;
-  background-color: #f9d500;
+  background-color: #ffcc28;
 }
 
 #title9:hover {
   color: #03ff00;
   background-color: #ff17cf;
-  cursor: pointer;
+  cursor: default;
+}
+#ref9 {
+  height: 85px;
+  width: 150px;
+  position: absolute;
+  left: 1.8%;
+  top: 8%;
+  padding: 19px;
+  word-wrap: break-word;
+  background-color: #06ff01;
+}
+#text9 {
+  color: white;
+  background-color: black;
+  letter-spacing: 0.005em;
+  font-size: 120%;
 }
 
 #title10 { /*MANIFEST*/
   color:  #9c0094;
   position: relative;
   display: inline-block;
-  background-color: #f9d500;
+  background-color: #ffcc28;
 }
 
 #title10:hover {
   color: #03ff00;
   background-color: #ff17cf;
-  cursor: pointer;
+  cursor: default;
+}
+#ref10 {
+  height: 63px;
+  width: 150px;
+  position: absolute;
+  left: 1.8%;
+  top: 8%;
+  padding: 19px;
+  word-wrap: break-word;
+  background-color: #ffcc28;
+
+}
+#text10 {
+  color: white;
+  background-color: black;
+  letter-spacing: 0.005em;
+  font-size: 120%;
 }
 
 
-#title2 { /*LINK IN MANIFEST*/
-  color:  #9c0094;
-  position: relative;
-  display: inline-block;
-}
+
 
 
 #header { /*HEADER*/
+  margin-bottom: 25px;
   color:  #9c0094;
   position: relative;
   display: inline-block;    
   text-align: center;
-  margin-top: 13px;
 }
 
-#mid-bottom { /*LOVE*/
+#mid-bottom { /*LINK IN MANIFEST*/
   color:  #9c0094;
   position: relative;
-  margin-top: 2.5%;
+  margin-top: 2%;
   text-align: center;
   display: inline-block;
 }
+
+#top { /*MOVEMENT*/
+  top: 0%;
+  width: 100%;
+}
+
+.fulljustify1 {
+  text-align: justify;
+  position: relative;  
+  width: 94.3%;
+  height: 23px;
+  color: white;
+  background-color: blue;
+  font-style: italic;
+  letter-spacing: -0.002em;  
+  font-size: 1.1em; 
+  padding-right: 10px; 
+  padding-left: 0.7%;
+
+}
+.fulljustify1:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+
+.fulljustify2 {
+  text-align: justify;
+  position: relative;  
+  width: 75%;
+  height: 20px;
+  color: white;
+  background-color: blue;
+  font-style: italic;
+  letter-spacing: -0.002em;  
+  font-size: 1.1em; 
+  line-height: 1em;
+  padding-right: 10px; 
+  padding-left: 20%;
+  display: inline-block;
+
+}
+.fulljustify2:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+
+#movement { /*MOVEMENT*/
+}
+
+#bottom { /*CHAPTER*/
+  position: fixed;
+  bottom: 0%;
+  text-align: center;
+  width: 100%;
+  background-color: blue;
+}
+
+#chapter { /*CHAPTER*/
+  color: white;
+  background-color:  blue;
+  letter-spacing: -0.002em;  
+  font-size: 120%;  
+  font-style: 100;
+  padding-left: 3px;
+  padding-right: 3px;
+  margin-top: 1px;
+  margin-bottom: 2px;
+  position: relative;
+  text-align: center;
+  display: inline-block;
+}
+
 
 
 #shift {
@@ -333,52 +554,17 @@ a:hover {
   width: 100%;
 }
 
-#shift:hover {
-  background-color: red;
-}
 
 
 
 /*ARTICLE*/
 
 #art-1 {
-/*  background-color: #cccccc; 
-*/  background-repeat: repeat-y;
+  background-repeat: repeat-y;
   background-size: 100%;
   text-align: center;
-  margin-top: 30px;
 }
 
-
-/*IMAGES*/
-
-img {
-    max-width: 320px;
-    max-height: 100%;
-}
-
-.images {
-    overflow: hidden;
-    font-size: 0.7em;
-    width: 26%;
-    float: left;
-    margin-top: 50px;
-    margin-left: 2%;
-    margin-right: -100%;
-    z-index: -2;
-}
-
-
-/*MENU ON SIDE*/
-#menu {
-  font-weight: 100;
-  font-size: 14px;
-  color: white;
-  position: fixed;
-  left: 30px; 
-  bottom: 2.5%;
-  z-index: 1;
-}
 
 .floating-box {
   display: inline;
@@ -463,79 +649,6 @@ img {
 
 #menu { 
   display: none;
-}
-
-}
-
-
-@media only print {
-
-#header {
-  margin-top: 0px; }
-
-/*TYPOGRAPHY*/
-
-body {
-  background-color: white; }
-h1 {
-  font-size: 75px;
-  line-height: 79px;
-  color: white }
-h2 {
-  color: white; }
-h3 {
-  color: white; }
-
-p {
-  font-size: 16px;
-  color: white;
-  padding-left: 5%;
-  padding-right: 5%;  
-}
-
-#menu { 
-  display: none;
-}
-
-/*ELEMENTS*/
-/*
-#menu {
-    top: 285px;
-    background-color: white;
-    border: none;
-
-    margin-top: 55px;
-    font-size: 0.7em;
-    line-height: 1.4em;
-    
-    width: 18%;
-    position: absolute;
-    float: left;
-    padding: 10px;
-    padding-top: -10px;
-    z-index: 1;
-}*/
-
-.floating-box {
-  border: none;
-  left: 20px;
-  width: 70%;
-}
-
-/*FOOTNOTES*/
-
-/*REFERENCES DIV*/
-.textnotes {
-    background-color: white;
-    border: none;
-    font-size: 0.6em;
-    line-height: 1.2em; 
-    width: 19%;
-    position: absolute;
-    float: left;
-    margin-left: 2%; 
-    padding-top: -10px;
-    z-index: 1;
 }
 
 }
