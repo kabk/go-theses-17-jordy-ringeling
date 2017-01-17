@@ -19,10 +19,10 @@ body {
 /*SCROLLBAR & SELECTION*/
 
 ::selection {
-  background: #03ff00; /* WebKit/Blink Browsers */
+  background: #03ff00; 
 }
 ::-moz-selection {
-  background: #03ff00; /* Gecko Browsers */
+  background: #03ff00; 
 }
 
 ::-webkit-scrollbar {
