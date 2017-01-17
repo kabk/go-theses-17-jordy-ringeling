@@ -1,4 +1,7 @@
 $(window).on("scroll", function() {
+
+    console.log('going 2');
+
     if($(window).scrollTop() > $('#art-0').position().top + 350 ){
         $(".background").addClass("chapter0");
     } else {
