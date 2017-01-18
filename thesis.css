@@ -194,6 +194,8 @@ img {
     line-height: 1.3em;
     font-size: 1.5em;
     width: 254px;
+    margin-bottom: 40px;
+
 }
 
 a.class1:link{
@@ -664,13 +666,13 @@ p {
 } 
 
 
-@media only print {
+@media print {
+
+
 
 @page { 
   margin:20px;
   margin-bottom: 30px;
-  background-image: url("img/back.jpg");
-  background-repeat: repeat-y;
 }
 
 #header {
@@ -713,7 +715,6 @@ p {
   padding-left: 5%;
   padding-right: 5%;  
 }
-
 
 
 #chapter2 p span { 
@@ -766,7 +767,6 @@ img {
     margin-left: 10.2%;
     margin-right: -100%;
     z-index: -2;
-
 }
 
 }
