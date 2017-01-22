@@ -648,7 +648,115 @@ p {
 
 }
 
-@media only screen and (max-width:960px){
+
+@media print {
+
+  @page { 
+    margin:20px;
+ /*   margin-bottom: 30px;*/
+  }
+
+  #header {
+    margin-top: 0px; 
+  }
+
+  a, a:hover {
+    text-decoration: none;
+  }
+
+
+  /*TYPOGRAPHY*/
+
+  #title0 { 
+    color: black;
+    background-color: white;
+    padding: 10px;
+    margin-left: 2%;
+    line-height: 4.7em;
+  }
+
+  body {
+    background-color: white; 
+  }
+
+  h1 {
+    font-size: 75px;
+    line-height: 0.95em;
+  }
+
+  h2 {
+    color: white; 
+  }
+
+  h3 {
+    color: white; 
+  }
+
+
+  p {
+    font-size: 16px;
+    color: white;
+    padding-left: 5%;
+    padding-right: 5%;  
+  }
+
+
+  #chapter2 p span { 
+     background-color: white;
+     color: black;
+  }
+
+  #shift{
+    display: none;
+  }
+
+
+  .floating-box {
+    border: none;
+    left: 30px;
+    width: 60%;
+  }
+
+  /*FOOTNOTES*/
+
+  /*REFERENCES DIV*/
+  .textnotes {
+      background-color: white;
+      border: none;
+      font-size: 0.8em;
+      line-height: 1.2em; 
+      width: 19%;
+      position: absolute;
+      float: left;
+      margin-left: 1%; 
+      padding-top: -10px;
+      z-index: 1;
+      margin-top: -17px;
+  }
+
+  img {
+      max-width: 250px;
+      max-height: 100%;
+      margin-bottom: 10px;
+      border-style: none;
+  }
+
+
+  .images {
+      overflow: hidden;
+      font-size: 0.7em;
+      width: 26%;
+      float: left;
+      margin-top: 22px;
+      margin-left: 10.2%;
+      margin-right: -100%;
+      z-index: -2;
+    }
+
+
+}
+
+@media only screen and (max-width: 960px ){
 
   #menuelement {
     text-align: center;
@@ -663,109 +771,3 @@ p {
   }
 
 } 
-
-
-@media print {
-
-
-
-@page { 
-  margin:20px;
-  margin-bottom: 30px;
-}
-
-#header {
-  margin-top: 0px; }
-
-a {
-  text-decoration: none;
-}
-
-
-a:hover {
-  text-decoration: none;
-}
-
-
-/*TYPOGRAPHY*/
-
-#title0 { 
-  color: black;
-  background-color: white;
-  padding: 10px;
-  margin-left: 2%;
-  line-height: 4.7em;
-}
-
-body {
-  background-color: white; }
-h1 {
-  font-size: 75px;
-  line-height: 0.95em;
-  /*color: white*/  }
-h2 {
-  color: white; }
-h3 {
-  color: white; }
-
-p {
-  font-size: 16px;
-  color: white;
-  padding-left: 5%;
-  padding-right: 5%;  
-}
-
-
-#chapter2 p span { 
-   background-color: white;
-   color: black;
-}
-
-#shift{
-  display: none;
-}
-
-
-.floating-box {
-  border: none;
-  left: 30px;
-  width: 60%;
-}
-
-/*FOOTNOTES*/
-
-/*REFERENCES DIV*/
-.textnotes {
-    background-color: white;
-    border: none;
-    font-size: 0.8em;
-    line-height: 1.2em; 
-    width: 19%;
-    position: absolute;
-    float: left;
-    margin-left: 1%; 
-    padding-top: -10px;
-    z-index: 1;
-    margin-top: -17px;
-}
-
-img {
-    max-width: 250px;
-    max-height: 100%;
-    margin-bottom: 10px;
-    border-style: none;
-}
-
-
-.images {
-    overflow: hidden;
-    font-size: 0.7em;
-    width: 26%;
-    float: left;
-    margin-top: 22px;
-    margin-left: 10.2%;
-    margin-right: -100%;
-    z-index: -2;
-}
-
-}

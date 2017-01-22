@@ -648,6 +648,7 @@ p {
 #continue {
   font-size: 1.1em;
   margin-top: 10px;
+  margin-bottom: 30px;
 }
 #chapter {
   position: relative;
