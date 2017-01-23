@@ -172,7 +172,10 @@ img {
     max-width: 260px;
     max-height: 100%;
     margin-bottom: 15px;   
+}
 
+img:hover {
+    max-width: 330px;
 }
 
 .images {
@@ -183,6 +186,7 @@ img {
     margin-left: 2%;
     margin-right: -100%;
 }
+
 
 #caption {
     padding: 3px;
@@ -195,8 +199,9 @@ img {
     font-size: 1.5em;
     width: 254px;
     margin-bottom: 40px;
-
 }
+
+
 
 a.class1:link{
   text-decoration: none;
@@ -645,8 +650,9 @@ p {
     max-width: 200px;
     max-height: 100%;
     padding-bottom: 7px;
-
 }
+
+
 
 
 @media print {
