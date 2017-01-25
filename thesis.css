@@ -57,6 +57,9 @@ body {
 .background.chapter5 {
     background: #c200ff;
 }
+.background.chapter6 {
+    background: #54d9e9;
+}
 
 
 
@@ -154,7 +157,7 @@ p span {
   color: white;
   background-color:  blue;
   letter-spacing: -0.002em;  
-  font-size: 120%;  
+  font-size: 114%;  
   font-style: 100;
   padding-left: 16px;
   padding-right: 16px;
@@ -362,9 +365,29 @@ a:hover {
   line-height: 4.7em;
 }
 
-
-
 #art-5 {
+  background-repeat: repeat-y;
+  background-size: 100%;
+}
+
+#chapter6 p span {  /*ABSTRACT*/
+  background-color: white;
+  color: black;
+  font-size: 1.0em;
+}
+
+#title6 { 
+  color: black;
+  background-color: white;
+  padding: 10px;
+  padding-top: 23px;
+  padding-bottom: 15px;  
+  margin-left: 2%;
+  line-height: 4.7em;
+  z-index: 10;
+}
+
+#art-6 {
   background-repeat: repeat-y;
   background-size: 100%;
 }

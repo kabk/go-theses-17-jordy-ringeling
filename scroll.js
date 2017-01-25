@@ -45,6 +45,12 @@ $(window).on("scroll", function() {
        $(".background").removeClass("chapter5");
     }      
     
+        if($(window).scrollTop() > $('#art-6').position().top -275 ){
+        $(".background").addClass("chapter6");
+    } else {
+        //remove the background property so it comes transparent again (defined in your css)
+       $(".background").removeClass("chapter6");
+    }   
 
 
 });
