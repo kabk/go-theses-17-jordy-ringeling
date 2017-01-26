@@ -693,6 +693,64 @@ p {
     text-decoration: none;
   }
 
+  #menuelement {
+    display: none;
+  }
+
+
+.textnotes-web {
+    display: none;  
+}
+
+.textnotes-mob {
+    display: block;
+    background-color: white;
+    border: none;
+    font-size: 0.8em;
+    line-height: 1.2em; 
+    width: 89%;
+    margin-left: 1.5%;
+    margin-top: -50px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    position: relative;
+    word-wrap: break-word;
+    z-index: 10;    
+}
+
+
+/*REFERENCE TEXT IN DIV(URL ECT.)*/
+.textnotes p {
+    color: #0018ff;
+    background-color: white;
+    font-size: 0.9em;
+    line-height: 1.4em;
+    margin-top: 1.3em;
+    margin-left: 1em;
+    margin-right: 0.8em;
+}
+
+.textnotes a {
+    color: black;
+}
+
+.textnotes a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/*NOTE NUMBER ON SIDE*/
+.notenumber {
+    font-size: 1.1em;
+    text-decoration: none;
+    background: none;
+}
+
+.notenumber a:hover {
+   color: #03ff00;
+   background-color: #ff17cf;
+}
 
   /*TYPOGRAPHY*/
 
@@ -748,40 +806,35 @@ p {
 
   /*FOOTNOTES*/
 
-  /*REFERENCES DIV*/
-  .textnotes {
-      background-color: white;
-      border: none;
-      font-size: 0.8em;
-      line-height: 1.2em; 
-      width: 19%;
-      position: absolute;
-      float: left;
-      margin-left: 1%; 
-      padding-top: -10px;
-      z-index: 1;
-      margin-top: -17px;
-  }
 
-  img {
-      max-width: 250px;
-      max-height: 100%;
-      margin-bottom: 10px;
-      border-style: none;
-  }
+img {
+    max-width: 235px;
+    max-height: 100%;
+}
 
 
-  .images {
-      overflow: hidden;
-      font-size: 0.7em;
-      width: 26%;
-      float: left;
-      margin-top: 22px;
-      margin-left: 10.2%;
-      margin-right: -100%;
-      z-index: -2;
-    }
+.images {
+    font-size: 0.7em;
+    width: 26%;
+    float: left;
+    margin-top: 20px;
+    margin-left: 2%;
+    margin-right: -100%;
+}
 
+
+#caption {
+    padding: 3px;
+    margin-top:-18px;
+    margin-bottom: 20px;
+    text-align: left;
+    color: red;
+    background-color: white;
+    line-height: 1.3em;
+    font-size: 1.5em;
+    max-width: 235px;
+    margin-bottom: 40px;
+}
 
 }
 
