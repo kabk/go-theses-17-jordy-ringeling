@@ -836,6 +836,28 @@ img {
     margin-bottom: 40px;
 }
 
+.background.chapter0 {
+    background: grey;
+}
+.background.chapter1 {
+    background: grey;
+}
+.background.chapter2 {
+    background: grey;
+}
+.background.chapter3 {
+    background: grey;
+}
+.background.chapter4 {
+    background: grey;
+}
+.background.chapter5 {
+    background: grey;
+}
+.background.chapter6 {
+    background: grey;
+}
+
 }
 
 @media only screen and (max-width: 960px ){
