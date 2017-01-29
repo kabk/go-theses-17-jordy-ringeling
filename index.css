@@ -11,9 +11,6 @@ html, body { height: 100% }
 
 body {
   background-color: #e4e4e4; 
-/*  background-image: url("img/background6.jpg");
-*/  background-repeat: repeat-y;
-  background-size: 100%;
 }
 
 /*SCROLLBAR & SELECTION*/
@@ -502,7 +499,7 @@ a:hover {
 }
 
 #bottom { /*CHAPTER*/
-  position: relative;
+  position: fixed;
   bottom: 0%;
   text-align: center;
   width: 100%;
@@ -604,6 +601,10 @@ article {
   width: 90%;
   margin-left: 1%;
   margin-right: 3%;
+}
+
+#bottom { /*CHAPTER*/
+  position: relative;
 }
 
 h1 {
