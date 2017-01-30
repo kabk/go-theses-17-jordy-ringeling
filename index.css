@@ -105,16 +105,17 @@ h2 {
 
 a:link {
   text-decoration: none;
-  color: red;   
+  color: #9f008f;
 }
 
 a:visited { 
   text-decoration: none;
-  color: red; 
+    color: #9f008f;
+
 }
 
 a:hover {
-  text-decoration: underline;
+  color: #03ff00
 
 }
 
